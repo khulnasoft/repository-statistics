@@ -1,0 +1,42 @@
+name: update-stats
+concurrency: 'update-stats'
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        statsRepo:
+          - khulnasoft/reconpoint
+      fail-fast: false
+      max-parallel: 1
+    steps:
+      - name: run-ghrs
+        uses: jgehrcke/github-repo-stats@v1.4.2
+        with:
+          repository: ${{ matrix.statsRepo }}
+          ghtoken: ${{ secrets.GHRS_GITHUB_API_TOKEN }}
+          databranch: main
+
+  update-stats-external:
+    if: always()
+    needs: update-stats
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        statsRepoExt:
+          - khulnasoft-lab/vuln-list
+      fail-fast: false
+      max-parallel: 1
+    steps:
+      - name: run-ghrs-ext
+        uses: jgehrcke/github-repo-stats@v1.4.2
+        with:
+          repository: ${{ matrix.statsRepoExt }}
+          ghtoken: ${{ secrets.GHRS_GITHUB_API_TOKEN }}
+          databranch: main
