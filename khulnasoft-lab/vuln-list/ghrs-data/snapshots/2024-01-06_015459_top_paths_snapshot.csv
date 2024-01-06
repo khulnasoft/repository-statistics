@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/khulnasoft-lab/vuln-list,12,6
+/khulnasoft-lab/vuln-list/blob/59901372bd468e1ccb1b5866f444cf4ec53dc206/cvrf/suse/suse/2023/SUSE%20Image%20SUSE-IU-2023-604-1.json,6,1
+/khulnasoft-lab/vuln-list/blob/main/nvd/2023/CVE-2023-1829.json,4,1
+/khulnasoft-lab/vuln-list/actions/new,2,2
+/khulnasoft-lab/vuln-list/commits/main,2,2
+/khulnasoft-lab/vuln-list/blob/3a25815814a8cfad8cb37060f157639d6efa3193/alma/8/2023/ALSA-2023%3A4517.json,2,1
+/khulnasoft-lab/vuln-list/blob/main/ghsa/pip/Django/GHSA-2gwj-7jmv-h26r.json,2,1
+/khulnasoft-lab/vuln-list/blob/main/ghsa/pip/django/GHSA-p64x-8rxx-wf6q.json,2,1
+/khulnasoft-lab/vuln-list/tree/main/ghsa/pip/Django,2,1
+/khulnasoft-lab/vuln-list/tree/main/osv,2,1
