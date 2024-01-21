@@ -1,0 +1,8 @@
+url_path,views_total,views_unique
+/khulnasoft-lab/vuln-list,7,3
+/khulnasoft-lab/vuln-list/blob/94a4d1d90ba3ee3455bfeb9088de9122e27c2aea/alma/9/2024/ALSA-2024%3A0151.json,2,1
+/khulnasoft-lab/vuln-list/blob/9ed65c70a276cbde33e81a2f9425ec6d1913decd/glad/maven/org.bouncycastle/bc-fips/CVE-2022-45146.json,2,1
+/khulnasoft-lab/vuln-list/blob/caace3e53acc166731adec305f022c511a070bd6/cvrf/suse/suse/2023/SUSE-SU-2023-4736-1.json,2,1
+/khulnasoft-lab/vuln-list/blob/main/glad/pypi/Django/CVE-2022-34265.json,2,1
+/khulnasoft-lab/vuln-list/tree/main/ubuntu,2,1
+/khulnasoft-lab/vuln-list/tree/main/ubuntu/2023,2,1
