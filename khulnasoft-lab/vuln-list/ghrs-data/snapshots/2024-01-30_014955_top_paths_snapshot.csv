@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/khulnasoft-lab/vuln-list,14,6
+/khulnasoft-lab/vuln-list/commits/main,7,2
+/khulnasoft-lab/vuln-list/blob/main/glad/pypi/Django/CVE-2022-34265.json,2,1
+/khulnasoft-lab/vuln-list/fork,2,1
+/khulnasoft-lab/vuln-list/tree/main/alpine-unfixed,2,1
+/khulnasoft-lab/vuln-list/actions/new,1,1
+/khulnasoft-lab/vuln-list/commit/9f4e004c2eeb879dbb38c4371fe4687b74b445aa,1,1
+/khulnasoft-lab/vuln-list/tree/9f4e004c2eeb879dbb38c4371fe4687b74b445aa,1,1
+/khulnasoft-lab/vuln-list/tree/db234f5352a5a11fa797fbc278547734f7f1a917,1,1
